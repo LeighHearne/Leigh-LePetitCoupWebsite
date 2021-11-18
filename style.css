@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Shippori+Antique+B1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Estonia&family=Shippori+Antique+B1&display=swap');
+
+body {
+    background-color: rgb( 175, 188, 233);
+    text-align:center;
+}
+
+#navbar{
+    display: flex;
+    background-color: rgb(163, 176, 219); 
+    font-family: 'Estonia', cursive;
+    font-size: 24pt;
+    height: 25px;
+    justify-content: space-evenly;
+    padding: 3px;
+    align-items: center;
+}
+
+#navbar a{
+    color: rgb(51, 66, 132);
+    text-decoration: none;
+}
+
+#navbar :hover {
+    color: rgb(220, 227, 100);
+}
+
+h1 {
+    color: rgb(51, 66, 132);
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 62pt;
+    margin-top: 15pt;
+    margin-bottom: 25pt;
+}
+h2 {
+    color: rgb(51, 66, 132);
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 28pt;
+}
+h3 {
+    color: rgb(51, 66, 132);
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20pt;
+}
+
+.imagetrip {
+    max-height: 10%;
+    max-width: 10%;  
+}
+
+.imagehp {
+    max-height: 40%;
+    max-width: 40%;
+}
+
+.frontpagetext {
+    color: rgb(51, 66, 132);
+    font-family: 'Dancing Script', cursive;
+}
+
+
+.intro {
+    color: rgb(51, 66, 132);
+    background-color: rgb(51, 66, 132, 0.2);
+    font-family: 'Estonia', cursive;
+    position: fixed;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    padding: 25px 25px 25px 1200px ;
+
+}
+
+.outro {
+    color: rgb(51, 66, 132);
+    background-color: rgb(51, 66, 132, 0.2);
+    font-family: 'Estonia', cursive;
+    position: fixed;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    padding: 25px 25px 25px 1200px ;
+
+}
+
+.photobox {
+    display: flex;
+    height: auto;
+    max-height: 100vh;
+    margin: 20px;
+    padding:20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.photos {
+    display: flex;
+    width: 30%;
+    margin: 10px;
+    padding: 15px;
+    align-items: center;
+}
+
+.photobox2 {
+    display: flex;
+    height: auto;
+    margin: 20px;
+    padding:20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:center;
+}
+
+.photos2 {
+    display: flex;
+    width: 70%;
+    padding: 15px;
+    align-items: center;
+}
+
+#page2background {
+    background-image: url("le-petit-coup1.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#page3background {
+   background-image: url("le-petit-coup13.jpg");
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: 100%;
+}
+
+.invis {
+    opacity: 0;
+}
